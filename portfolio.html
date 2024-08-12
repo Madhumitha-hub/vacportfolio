@@ -1,0 +1,121 @@
+<!--1--->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #4ca3af;
+            color: blueviolet;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav a {
+            color: blueviolet;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            border-radius: 5px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .project {
+            flex: 1;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: white;
+        }
+        .project img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #333333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <h1>madhu</h1>
+        <p>Web Developer | Designer | Enthusiast</p>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello! I'm madhu, a passionate web developer with experience in creating responsive websites.
+                 My skills include HTML, CSS, JavaScript etc.</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="projects">
+                <div class="project">
+                    <h3>Project Title 1</h3>
+                    <img src="project1.jpg" alt="Project 1">
+                    <p>Description of project 1. This project involves...</p>
+                </div>
+                <div class="project">
+                    <h3>Project Title 2</h3>
+                    <img src="project2.jpg" alt="Project 2">
+                    <p>Description of project 2. This project includes...</p>
+                </div>
+                <div class="project">
+                    <h3>Project Title 3</h3>
+                    <img src="project3.jpg" alt="Project 3">
+                    <p>Description of project 3. It features...</p>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>If you'd like to get in touch,
+             please email me at <a href="mailto:2216032@saec.ac.in">2216032@saec.ac.in</a>.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Madhu. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
